@@ -1,0 +1,81 @@
+---
+title: chez moi - members
+layout: ./app/layout.ejs
+engine: ejs
+---
+
+<div class="members-top"></div>
+<div class="members-main-top my-6 pb-3 border-bottom border-primary">
+    <div class="container d-md-flex d-flex-column justify-content-md-between align-items-center">
+        <div class="member-title">
+            <h3>會員專區-重設密碼</h3>
+        </div>
+        <div class="btn-group mt-3" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-primary"><a href="members.html"><i
+                        class=" fa-solid fa-right-to-bracket me-2"></i>會員登出</a></button>
+            <button type="button" class="btn btn-primary"><a href="members-reset.html"><i
+                        class="fa-solid fa-lock me-2"></i>修改密碼</a></button>
+        </div>
+    </div>
+</div>
+<div class="container my-6 pb-10">
+    <div class="row justify-content-center">
+        <form class="col-8 col-md-6 needs-validation" novalidate>
+            <div class="mb-3">
+                <div class="row">
+                </div>
+                <label for="InputId" class="form-label fs-6">帳號</label>
+                <input type="text" class="form-control" id="InputId" value="User123" disabled>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                </div>
+                <label for="InputName" class="form-label fs-6">姓名</label>
+                <input type="text" class="form-control" id="InputName" value="林圈圈" disabled>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                </div>
+                <label for="InputEmail1" class="form-label fs-6">電子信箱</label>
+                <input type="email" class="form-control" id="InputEmail1" value="ling@chezmoi.com" disabled>
+            </div>
+            <div class="mb-3">
+                <label for="InputPassword" class="form-label fs-6">登入密碼</label>
+                <input type="password" class="form-control" id="InputPassword" required>
+                <div class="invalid-feedback">
+                    請輸入密碼
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="InputPassword2" class="form-label fs-6">確認密碼</label>
+                <input type="password" class="form-control" id="InputPassword2" required>
+                <div class="invalid-feedback">
+                    請輸入密碼
+                </div>
+            </div>
+            <div class="buttons d-flex justify-content-end mt-5">
+                <button type="button" class="btn btn-outline-primary me-3" data-bs-toggle="modal"
+                    data-bs-target="#forgotpw"><a href="index.html">取消</a></button>
+                <button type="submit" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#regist">修改密碼</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade" id="regist" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">修改完成</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                請使用新密碼重新登入：）
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">確認</button>
+            </div>
+        </div>
+    </div>
+</div>

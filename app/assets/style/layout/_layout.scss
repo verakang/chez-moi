@@ -1,0 +1,62 @@
+img {
+  height: calc(100vh - 96px);
+  object-fit: cover;
+}
+
+.nav-bg {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.navbar-brand {
+  a {
+    font-size: 32px !important;
+    font-weight: 300;
+  }
+
+  .top-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+.nav-item {
+  transition: 0.3s;
+  font-weight: 300;
+
+  &:hover {
+    border-bottom: 1px solid #fff;
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 1) !important;
+  }
+}
+
+footer {
+  .footer-logo {
+    color: #fff;
+    transition: 0.3s;
+
+    &:hover {
+      color: $primary;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+      vertical-align: -10px;
+      margin-right: 8px;
+    }
+  }
+
+  .footer-icons {
+    font-size: 32px;
+    color: #fff;
+    transition: 0.3s;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}

@@ -1,0 +1,266 @@
+.banner {
+  height: calc(100vh);
+  background-image: url("https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1858&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  .container {
+    height: calc(100vh - 74px);
+  }
+
+  img {
+    height: calc(100vh - 96px);
+    object-fit: cover;
+  }
+
+  span {
+    text-shadow: 0px 0px 50px #555;
+  }
+}
+
+.banner-title {
+  -webkit-writing-mode: vertical-lr;
+  writing-mode: vertical-lr;
+  letter-spacing: 24px;
+  color: #fff;
+  text-shadow: 1px 1px 50px #555;
+}
+
+.featured {
+  .featured-title {
+    padding-left: 25%;
+
+    @include pad {
+      padding-left: 5%;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 130px;
+      height: 130px;
+      background-image: url("../images/yellow.svg");
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: -30px;
+      left: 22%;
+      z-index: -1;
+
+      @include pad {
+        left: 0;
+      }
+
+      @include mobile {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  .card {
+    &:hover {
+      img {
+        transform: scale(1.05);
+      }
+
+      .card-title {
+        background-color: $primary;
+      }
+    }
+
+    .card-title {
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .card-img {
+      width: 100%;
+      height: 350px;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.hitCompany {
+  .hitCompany-title {
+    padding-left: 25%;
+
+    @include pad {
+      padding-left: 5%;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 130px;
+      height: 130px;
+      background-image: url("../images/yellow.svg");
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: -30px;
+      left: 22%;
+      z-index: -1;
+
+      @include pad {
+        left: 0;
+      }
+
+      @include mobile {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+    }
+  }
+
+  .card {
+    &:hover {
+      img {
+        transform: scale(1.05);
+      }
+
+      .card-title {
+        background-color: $primary;
+      }
+    }
+
+    .card-title {
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .card-img {
+      width: 100%;
+      height: 350px;
+      overflow: hidden;
+
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
+
+.favDesign {
+  .favDesign-title {
+    padding-left: 25%;
+
+    @include pad {
+      padding-left: 5%;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 130px;
+      height: 130px;
+      background-image: url("../images/yellow.svg");
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: -30px;
+      left: 22%;
+      z-index: -1;
+
+      @include pad {
+        left: 0;
+      }
+
+      @include mobile {
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+
+  .card {
+    &:hover {
+      img {
+        transform: scale(1.05);
+      }
+
+      .card-title {
+        background-color: $primary;
+      }
+    }
+
+    .card-title {
+      display: inline-block;
+      transition: 0.3s;
+    }
+  }
+
+  .card-img {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+
+    img {
+      height: 100%;
+    }
+  }
+}
+
+//swiper
+
+.swiper {
+  width: 66.666%;
+  height: 100%;
+
+  @include pad {
+    width: 100%;
+  }
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #fff;
+  text-shadow: 0px 0px 10px #555;
+}
+
+.gotop {
+  img {
+    width: 50px;
+    height: auto;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+  }
+}

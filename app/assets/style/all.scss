@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap');
+
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
 
 
-@import './layout/index.scss'
+@import './layout/base.scss';
+@import './layout/mixin.scss';
+@import './layout/layout.scss';
+@import './pages/index.scss';
+@import './pages/company.scss';
+@import './pages/works.scss';
+@import './pages/members.scss';

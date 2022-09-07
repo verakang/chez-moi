@@ -1,0 +1,64 @@
+---
+title: chez moi - members
+layout: ./app/layout.ejs
+engine: ejs
+---
+
+<div class="members-top"></div>
+<div class="members-main-top my-6 pb-3 border-bottom border-primary">
+    <div class="container d-md-flex d-flex-column justify-content-md-between align-items-center">
+        <div class="member-title">
+            <h3>會員專區</h3>
+        </div>
+        <div class="btn-group mt-3" role="group" aria-label="Basic outlined example">
+            <button type="button" class="btn btn-primary"><a href="members-regist.html"><i
+                        class="fa-solid fa-right-to-bracket me-2"></i>註冊會員</a></button>
+            <button type="button" class="btn btn-primary"><a href="members-reset.html"><i
+                        class="fa-solid fa-lock me-2"></i>修改密碼</a></button>
+        </div>
+    </div>
+</div>
+<div class="container my-6 pb-10">
+    <div class="row justify-content-center">
+        <form class="col-8 col-md-6 needs-validation" novalidate>
+            <div class="mb-3">
+                <div class="row">
+                </div>
+                <label for="InputId" class="form-label fs-6">會員帳號</label>
+                <input type="text" class="form-control" id="InputId" required placeholder="user123">
+                <div class="invalid-feedback">
+                    請輸入帳號
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="InputPassword" class="form-label fs-6">登入密碼</label>
+                <input type="password" class="form-control" id="InputPassword" required placeholder="********">
+                <div class="invalid-feedback">
+                    請輸入密碼
+                </div>
+            </div>
+            <div class="buttons d-flex justify-content-end mt-5">
+                <button type="button" class="btn btn-outline-primary me-3" data-bs-toggle="modal"
+                    data-bs-target="#forgotpw">忘記密碼</button>
+                <button type="submit" class="btn btn-primary">會員登入</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal fade" id="forgotpw" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">已發送信件</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                請至信箱確認重設密碼連結：）
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">確認</button>
+            </div>
+        </div>
+    </div>
+</div>
