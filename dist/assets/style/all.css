@@ -12656,29 +12656,6 @@ footer .footer-icons:hover {
   }
 }
 
-.hitCompany .card:hover img {
-  transform: scale(1.05);
-}
-
-.hitCompany .card:hover .card-title {
-  background-color: #FFD643;
-}
-
-.hitCompany .card .card-title {
-  display: inline-block;
-  transition: 0.3s;
-}
-
-.hitCompany .card .card-img {
-  width: 100%;
-  height: 350px;
-  overflow: hidden;
-}
-
-.hitCompany .card .card-img img {
-  height: 100%;
-}
-
 .favDesign .favDesign-title {
   padding-left: 25%;
 }
@@ -12788,6 +12765,34 @@ footer .footer-icons:hover {
   background-size: cover;
   background-position: top center;
   padding-top: 250px;
+}
+
+.input-search {
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.company-item:hover img {
+  transform: scale(1.05);
+}
+
+.company-item:hover .card-title {
+  background-color: #FFD643;
+}
+
+.company-item .card-title {
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.company-item .card-img {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.company-item .card-img img {
+  height: 100%;
 }
 
 .works-top {
