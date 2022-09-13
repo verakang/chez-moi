@@ -1,160 +1,1026 @@
 [
-    {
-        "id": "a001",
+  {
+    "id": "a001",
+    "company": "粼粼設計",
+    "info": {
+      "phone": "02-12345678",
+      "address": "台北市信義區市府路101號",
+      "email": "james@a_desigen.com",
+      "about": "粼粼設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
+      "budget": "101萬以上",
+      "location": "北部"
+    },
+    "works": [
+      {
+        "id": "a001-b001",
         "company": "粼粼設計",
-        "info": {
-            "phone": "02-12345678",
-            "address": "台北市信義區市府路101號",
-            "email": "james@a_desigen.com",
-            "about": "粼粼設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
-            "budget": "101萬以上",
-            "location": "北部",
-        },
-        "works": [
-            {
-                "id": "a001-b001",
-                "company": "粼粼設計",
-                "title": "浮光掠影",
-                "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
-                "style": "現代風",
-                "size": "20-25坪",
-                "view": "7432",
-                "likes": "521",
-                "photos": [a,b,c
-                ],
-            },
-            {
-                "id": "a001-b002",
-                "company": "粼粼設計",
-                "title": "純白",
-                "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
-                "style": "北歐風",
-                "size": "50坪以上",
-                "view": "1164",
-                "likes": "95",
-                "photos": [a,b,c
-                ],
-            },
-            {
-                "id": "a001-b003",
-                "company": "粼粼設計",
-                "title": "盛夏",
-                "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
-                "style": "混搭風",
-                "size": "20-50坪",
-                "view": "1664",
-                "likes": "103",
-                "photos": [a,b,c
-                ],
-            }
-        ],
-        "works-amount": "32",
-        "likes": "216",
+        "title": "浮光掠影",
+        "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 7432,
+        "likes": 521,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a001-b002",
+        "company": "粼粼設計",
+        "title": "純白",
+        "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 1164,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a001-b003",
+        "company": "粼粼設計",
+        "title": "盛夏",
+        "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
+        "style": "混搭風",
+        "size": "20-50坪",
+        "view": 1664,
+        "likes": 103,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 32,
+    "likes": 216
+  },
+  {
+    "id": "a002",
+    "company": "雅田室內設計",
+    "info": {
+      "phone": "04-12345678",
+      "address": "台中市西屯區台灣大道三段99號",
+      "email": "james@a_desigen.com",
+      "about": "雅田室內設計是台中的老字號設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
+      "budget": "101萬以上",
+      "location": "中部"
     },
-    {
-        "id": "a002",
-        "company": "雅田設計",
-        "info": {
-            "phone": "04-12345678",
-            "address": "台中市西屯區台灣大道三段99號",
-            "email": "james@a_desigen.com",
-            "about": "雅田設計是台中的老字號設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
-            "budget": "101萬以上",
-            "location": "中部",
-        },
-        "works": [
-            {
-                "id": "a002-b001",
-                "company": "雅田設計",
-                "title": "好食光",
-                "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
-                "style": "北歐風",
-                "size": "50坪以上",
-                "view": "4432",
-                "likes": "355",
-                "photos": [a,b,c
-                ],
-            },
-            {
-                "id": "a002-b002",
-                "company": "雅田設計",
-                "title": "小日子",
-                "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
-                "style": "日系風",
-                "size": "20坪以下",
-                "view": "6432",
-                "likes": "985",
-                "photos": [a,b,c
-                ],
-            },
-            {
-                "id": "a002-b003",
-                "company": "雅田設計",
-                "title": "留白",
-                "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
-                "style": "現代風",
-                "size": "20坪以下",
-                "view": "3432",
-                "likes": "254",
-                "photos": [a,b,c
-                ],
-            }
-        ],
-        "works-amount": "57",
-        "likes": "916",
-        "works-amount": "57",
-        "likes": "916",
+    "works": [
+      {
+        "id": "a002-b001",
+        "company": "雅田室內設計",
+        "title": "好食光",
+        "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 4432,
+        "likes": 355,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a002-b002",
+        "company": "雅田室內設計",
+        "title": "小日子",
+        "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
+        "style": "日系風",
+        "size": "20坪以下",
+        "view": 6432,
+        "likes": 985,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a002-b003",
+        "company": "雅田室內設計",
+        "title": "留白",
+        "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
+        "style": "現代風",
+        "size": "20坪以下",
+        "view": 3432,
+        "likes": 254,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 57,
+    "likes": 916
+  },
+  {
+    "id": "a003",
+    "company": "某某設計",
+    "info": {
+      "phone": "06-12345678",
+      "address": "台南市新營區中正路3號",
+      "email": "james@a_desigen.com",
+      "about": "某某設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
+      "budget": "81-101萬",
+      "location": "南部"
     },
-    {
-        "id": "a003",
+    "works": [
+      {
+        "id": "a003-b001",
         "company": "某某設計",
-        "info": {
-            "phone": "06-12345678",
-            "address": "台南市新營區中正路3號",
-            "email": "james@a_desigen.com",
-            "about": "某某設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
-            "budget": "101萬以上",
-            "location": "南部",
-        },
-        "works": [
-            {
-                "id": "a003-b001",
-                "company": "某某設計",
-                "title": "浮光掠影",
-                "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
-                "style": "現代風",
-                "size": "20-25坪",
-                "view": "7432",
-                "likes": "521",
-                "photos": [a,b,c
-                ],
-            },
-            {
-                "id": "a003-b002",
-                "company": "某某設計",
-                "title": "純白",
-                "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
-                "style": "北歐風",
-                "size": "50坪以上",
-                "view": "1164",
-                "likes": "95",
-                "photos": [a,b,c
-                ],
-            },
-            {
-                "id": "a003-b003",
-                "company": "某某設計",
-                "title": "盛夏",
-                "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
-                "style": "混搭風",
-                "size": "20-50坪",
-                "view": "1664",
-                "likes": "103",
-                "photos": [a,b,c
-                ],
-            }
-        ],
-        "works-amount": "32",
-        "likes": "216",
+        "title": "清晨",
+        "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 5432,
+        "likes": 121,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a003-b002",
+        "company": "某某設計",
+        "title": "無暇",
+        "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 1164,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a003-b003",
+        "company": "某某設計",
+        "title": "沙漠",
+        "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
+        "style": "混搭風",
+        "size": "20-50坪",
+        "view": 1664,
+        "likes": 103,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 12,
+    "likes": 96
+  },
+  {
+    "id": "a004",
+    "company": "山河設計",
+    "info": {
+      "phone": "03-12345678",
+      "address": "宜蘭縣宜蘭市縣政北路1號",
+      "email": "james@a_desigen.com",
+      "about": "山河設計是宜蘭的老字號設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
+      "budget": "80萬以下",
+      "location": "東部"
     },
+    "works": [
+      {
+        "id": "a004-b001",
+        "company": "山河設計",
+        "title": "開伙",
+        "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 2241,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a004-b002",
+        "company": "山河設計",
+        "title": "My House",
+        "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
+        "style": "日系風",
+        "size": "20-25坪",
+        "view": 3277,
+        "likes": 385,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a004-b003",
+        "company": "山河設計",
+        "title": "意境",
+        "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 4432,
+        "likes": 294,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 57,
+    "likes": 916
+  },
+  {
+    "id": "a005",
+    "company": "五伍空間設計",
+    "info": {
+      "phone": "02-12345678",
+      "address": "台北市信義區市府路101號",
+      "email": "james@a_desigen.com",
+      "about": "五伍空間設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
+      "budget": "101萬以上",
+      "location": "北部"
+    },
+    "works": [
+      {
+        "id": "a005-b001",
+        "company": "五伍空間設計",
+        "title": "浮光掠影",
+        "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 7432,
+        "likes": 521,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a005-b002",
+        "company": "五伍空間設計",
+        "title": "純白",
+        "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 1164,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a005-b003",
+        "company": "五伍空間設計",
+        "title": "盛夏",
+        "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
+        "style": "混搭風",
+        "size": "20-50坪",
+        "view": 1664,
+        "likes": 103,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 32,
+    "likes": 216
+  },
+  {
+    "id": "a006",
+    "company": "六陸設計",
+    "info": {
+      "phone": "04-12345678",
+      "address": "台中市西屯區台灣大道三段99號",
+      "email": "james@a_desigen.com",
+      "about": "六陸設計是台中的老字號設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
+      "budget": "101萬以上",
+      "location": "中部"
+    },
+    "works": [
+      {
+        "id": "a006-b001",
+        "company": "六陸設計",
+        "title": "好食光",
+        "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 4432,
+        "likes": 355,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a006-b002",
+        "company": "六陸設計",
+        "title": "小日子",
+        "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
+        "style": "日系風",
+        "size": "20坪以下",
+        "view": 6432,
+        "likes": 985,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a006-b003",
+        "company": "六陸設計",
+        "title": "留白",
+        "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
+        "style": "現代風",
+        "size": "20坪以下",
+        "view": 3432,
+        "likes": 254,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 57,
+    "likes": 916
+  },
+  {
+    "id": "a007",
+    "company": "零柒設計",
+    "info": {
+      "phone": "06-12345678",
+      "address": "台南市新營區中正路3號",
+      "email": "james@a_desigen.com",
+      "about": "某某設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
+      "budget": "81-101萬",
+      "location": "南部"
+    },
+    "works": [
+      {
+        "id": "a007-b001",
+        "company": "零柒設計",
+        "title": "清晨",
+        "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 5432,
+        "likes": 121,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-01.jpg"
+        ]
+      },
+      {
+        "id": "a007-b002",
+        "company": "零柒設計",
+        "title": "無暇",
+        "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 1164,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-01.jpg"
+        ]
+      },
+      {
+        "id": "a007-b003",
+        "company": "零柒設計",
+        "title": "沙漠",
+        "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
+        "style": "混搭風",
+        "size": "20-50坪",
+        "view": 1664,
+        "likes": 103,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-01.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 12,
+    "likes": 96
+  },
+  {
+    "id": "a008",
+    "company": "陵峇建築設計",
+    "info": {
+      "phone": "03-12345678",
+      "address": "宜蘭縣宜蘭市縣政北路1號",
+      "email": "james@a_desigen.com",
+      "about": "陵峇建築設計是宜蘭的老字號建築設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
+      "budget": "80萬以下",
+      "location": "東部"
+    },
+    "works": [
+      {
+        "id": "a008-b001",
+        "company": "陵峇建築設計",
+        "title": "開伙",
+        "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 2241,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg"
+        ]
+      },
+      {
+        "id": "a008-b002",
+        "company": "陵峇建築設計",
+        "title": "My House",
+        "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
+        "style": "日系風",
+        "size": "20-25坪",
+        "view": 3277,
+        "likes": 385,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-01.jpg"
+        ]
+      },
+      {
+        "id": "a008-b003",
+        "company": "陵峇建築設計",
+        "title": "意境",
+        "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 4432,
+        "likes": 294,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-01.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 57,
+    "likes": 916
+  },
+  {
+    "id": "a009",
+    "company": "韭玖室內設計",
+    "info": {
+      "phone": "02-12345678",
+      "address": "台北市信義區市府路101號",
+      "email": "james@a_desigen.com",
+      "about": "韭玖設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
+      "budget": "101萬以上",
+      "location": "北部"
+    },
+    "works": [
+      {
+        "id": "a009-b001",
+        "company": "韭玖室內設計",
+        "title": "浮光掠影",
+        "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 2432,
+        "likes": 91,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a009-b002",
+        "company": "韭玖室內設計",
+        "title": "純白",
+        "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 1164,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a009-b003",
+        "company": "韭玖室內設計",
+        "title": "盛夏",
+        "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
+        "style": "混搭風",
+        "size": "20-50坪",
+        "view": 1664,
+        "likes": 103,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 62,
+    "likes": 324
+  },
+  {
+    "id": "a010",
+    "company": "乙綾裝修設計",
+    "info": {
+      "phone": "04-12345678",
+      "address": "台中市西屯區台灣大道三段99號",
+      "email": "james@a_desigen.com",
+      "about": "乙綾裝修設計是台中的老字號設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
+      "budget": "101萬以上",
+      "location": "中部"
+    },
+    "works": [
+      {
+        "id": "a010-b001",
+        "company": "乙綾裝修設計",
+        "title": "好食光",
+        "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 4432,
+        "likes": 355,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a010-b002",
+        "company": "乙綾裝修設計",
+        "title": "小日子",
+        "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
+        "style": "日系風",
+        "size": "20坪以下",
+        "view": 6432,
+        "likes": 985,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a010-b003",
+        "company": "乙綾裝修設計",
+        "title": "留白",
+        "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
+        "style": "現代風",
+        "size": "20坪以下",
+        "view": 3432,
+        "likes": 254,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 117,
+    "likes": 2016
+  },
+  {
+    "id": "a011",
+    "company": "黃河設計",
+    "info": {
+      "phone": "06-12345678",
+      "address": "台南市新營區中正路3號",
+      "email": "james@a_desigen.com",
+      "about": "黃河設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
+      "budget": "81-101萬",
+      "location": "南部"
+    },
+    "works": [
+      {
+        "id": "a011-b001",
+        "company": "黃河設計",
+        "title": "清晨",
+        "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 5432,
+        "likes": 121,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a011-b002",
+        "company": "黃河設計",
+        "title": "無暇",
+        "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 1164,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a011-b003",
+        "company": "黃河設計",
+        "title": "沙漠",
+        "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
+        "style": "混搭風",
+        "size": "20-50坪",
+        "view": 1664,
+        "likes": 103,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 32,
+    "likes": 355
+  },
+  {
+    "id": "a012",
+    "company": "居所空間設計",
+    "info": {
+      "phone": "03-12345678",
+      "address": "宜蘭縣宜蘭市縣政北路1號",
+      "email": "james@a_desigen.com",
+      "about": "居所空間設計是宜蘭的老字號設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
+      "budget": "80萬以下",
+      "location": "東部"
+    },
+    "works": [
+      {
+        "id": "a012-b001",
+        "company": "居所空間設計",
+        "title": "開伙",
+        "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 2241,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a012-b002",
+        "company": "居所空間設計",
+        "title": "My House",
+        "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
+        "style": "日系風",
+        "size": "20-25坪",
+        "view": 3277,
+        "likes": 385,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a012-b003",
+        "company": "居所空間設計",
+        "title": "意境",
+        "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 4432,
+        "likes": 294,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 57,
+    "likes": 916
+  },
+  {
+    "id": "a013",
+    "company": "壹三設計",
+    "info": {
+      "phone": "02-12345678",
+      "address": "台北市信義區市府路101號",
+      "email": "james@a_desigen.com",
+      "about": "壹三設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
+      "budget": "101萬以上",
+      "location": "北部"
+    },
+    "works": [
+      {
+        "id": "a013-b001",
+        "company": "壹三設計",
+        "title": "浮光掠影",
+        "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 7432,
+        "likes": 521,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a013-b002",
+        "company": "壹三設計",
+        "title": "純白",
+        "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 1164,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a013-b003",
+        "company": "壹三設計",
+        "title": "盛夏",
+        "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
+        "style": "混搭風",
+        "size": "20-50坪",
+        "view": 1664,
+        "likes": 103,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 6,
+    "likes": 116
+  },
+  {
+    "id": "a014",
+    "company": "祀建築設計",
+    "info": {
+      "phone": "04-12345678",
+      "address": "台中市西屯區台灣大道三段99號",
+      "email": "james@a_desigen.com",
+      "about": "祀建築設計是台中的老字號設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
+      "budget": "101萬以上",
+      "location": "中部"
+    },
+    "works": [
+      {
+        "id": "a014-b001",
+        "company": "祀建築設計",
+        "title": "好食光",
+        "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 4432,
+        "likes": 355,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-04.jpg"
+        ]
+      },
+      {
+        "id": "a014-b002",
+        "company": "祀建築設計",
+        "title": "小日子",
+        "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
+        "style": "日系風",
+        "size": "20坪以下",
+        "view": 6432,
+        "likes": 985,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-04.jpg"
+        ]
+      },
+      {
+        "id": "a014-b003",
+        "company": "祀建築設計",
+        "title": "留白",
+        "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
+        "style": "現代風",
+        "size": "20坪以下",
+        "view": 3432,
+        "likes": 254,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-01.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-04.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 357,
+    "likes": 2916
+  },
+  {
+    "id": "a015",
+    "company": "禕午設計",
+    "info": {
+      "phone": "06-12345678",
+      "address": "台南市新營區中正路3號",
+      "email": "james@a_desigen.com",
+      "about": "禕午設計，創立於2020年，設計團隊自大學時期就一起合作設計案，在設計過程能發揮各自專長，擁有絕佳默契。團隊擅長光影氛圍的營造，在小宅當道的趨勢下，利用燈光區隔空間，不浪費家中任何一個角落。",
+      "budget": "81-101萬",
+      "location": "南部"
+    },
+    "works": [
+      {
+        "id": "a015-b001",
+        "company": "禕午設計",
+        "title": "清晨",
+        "concept": "這是一個位於桃園的老屋，屋主希望能將空間改造成開放式的格局，並增加屋內採光。團隊將大部分牆面打掉，引入大量光線，並在不同區域使用燈飾區隔場域，像是客餐廳雖然沒有牆面又能夠保有其獨立性。陽台設計了大面落地窗，讓從事攝影的女主人可以有足夠的自然光進行拍攝工作。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 5432,
+        "likes": 121,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b002-01.jpg"
+        ]
+      },
+      {
+        "id": "a015-b002",
+        "company": "禕午設計",
+        "title": "無暇",
+        "concept": "這是一間在宜蘭近郊的小屋，屋主住在二樓，樓下為民宿及公用空間。整體採開放式設計，以白色為基底，加上精心搭配的軟裝，實現屋主預期的混搭風設計。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 1164,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b001-01.jpg"
+        ]
+      },
+      {
+        "id": "a015-b003",
+        "company": "禕午設計",
+        "title": "沙漠",
+        "concept": "色彩強烈碰撞，令人眼睛為之一亮，獨一無二的盛夏。",
+        "style": "混搭風",
+        "size": "20-50坪",
+        "view": 1664,
+        "likes": 103,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a001-b003-01.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 12,
+    "likes": 96
+  },
+  {
+    "id": "a016",
+    "company": "形色設計",
+    "info": {
+      "phone": "03-12345678",
+      "address": "宜蘭縣宜蘭市縣政北路1號",
+      "email": "james@a_desigen.com",
+      "about": "形色設計是宜蘭的老字號建築設計公司，商業空間、住宅、活動展示，經手過各類型的空間規劃，旗下設計師各有專精風格，能滿足不同業主個需求。",
+      "budget": "80萬以下",
+      "location": "東部"
+    },
+    "works": [
+      {
+        "id": "a016-b001",
+        "company": "形色設計",
+        "title": "開伙",
+        "concept": "位於台中市區的廚藝教室，採北歐風設計。規劃有大教室及小教室，針對不同課程安排適合的場地，公共空間特別設計有用餐區，讓學員們可以不用在廚房享用自己親手製作的美味佳餚。",
+        "style": "北歐風",
+        "size": "50坪以上",
+        "view": 2241,
+        "likes": 95,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b002-01.jpg"
+        ]
+      },
+      {
+        "id": "a016-b002",
+        "company": "形色設計",
+        "title": "My House",
+        "concept": "第一個屬於自己的小小窩，由於坪數不大、採用極簡日系風，讓屋內空間看起來不會有擁擠感，配色也是白色基底搭上原木顏色，是能讓屋主平日下班後好好休憩的舒適空間。",
+        "style": "日系風",
+        "size": "20-25坪",
+        "view": 3277,
+        "likes": 385,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b001-01.jpg"
+        ]
+      },
+      {
+        "id": "a016-b003",
+        "company": "形色設計",
+        "title": "意境",
+        "concept": "屋主希望空間不做過多裝飾，有別於一般小宅，除了必要的收納空間，其他地方不做滿櫃子，客廳牆面留了空間讓屋主可以隨意地擺放畫作裝飾。",
+        "style": "現代風",
+        "size": "20-25坪",
+        "view": 4432,
+        "likes": 294,
+        "photos": [
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-04.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-02.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-03.jpg",
+          "https://verakang.github.io/chez-moi/assets/images/json/a002-b003-01.jpg"
+        ]
+      }
+    ],
+    "worksAmount": 43,
+    "likes": 6116
+  }
 ]

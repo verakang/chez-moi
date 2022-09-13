@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    chez moi - company
+    chez moi - members
   </title>
   <link rel="icon" href="assets/images/icon.svg">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -44,51 +44,63 @@
     </div>
   </nav>
   
-<section class="company-top">
+<section class="members-top">
     <div class="mt-6 pb-3 border-bottom border-5 border-primary">
         <div class="container d-md-flex d-flex-column justify-content-md-between align-items-center">
-            <div class="d-flex align-items-center">
-                <div class="company-title">
-                    <h3 class="fw-bold me-3">設計公司列表</h3>
-                </div>
-                <!-- <div class="btn-group me-3" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" class="btn-check" name="placeradio" id="placeradio_01" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="placeradio_01">北部</label>
-                    <input type="radio" class="btn-check" name="placeradio" id="placeradio_02" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="placeradio_02">中部</label>
-                    <input type="radio" class="btn-check" name="placeradio" id="placeradio_03" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="-placeradio_03">南部</label>
-                    <input type="radio" class="btn-check" name="placeradio" id="placeradio_04" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="placeradio_04">東部</label>
-                </div>
-                <div class="btn-group me-3" role="group" aria-label="Basic radio toggle button group">
-                    <input type="radio" class="btn-check" name="priceradio" id="priceradio_01" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="priceradio_01">80萬以下</label>
-                    <input type="radio" class="btn-check" name="priceradio" id="priceradio_02" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="priceradio_02">81-100萬</label>
-                    <input type="radio" class="btn-check" name="priceradio" id="priceradio_03" autocomplete="off">
-                    <label class="btn btn-outline-primary" for="priceradio_03">101萬以上</label>
-                </div>
-                <a href="#" class="btn btn-primary">GO</a> -->
+            <div class="member-title">
+                <h3 class="fw-bold">會員專區</h3>
             </div>
-
-            <div class="d-flex align-items-center justify-content-between border border-primary my-4 my-md-0">
-                <input class="company-input me-2 px-2 border-0 fs-6 fw-light bg-transparent text-white" type="search"
-                    placeholder="Search">
-                <a class="p-2 company-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-primary"><a href="members.html"><i
+                            class="fa-solid fa-right-from-bracket me-2"></i>會員登出</a></button>
+                <button type="button" class="btn btn-primary"><a href="members-reset.html"><i
+                            class="fa-solid fa-lock me-2"></i>修改密碼</a></button>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container py-6">
-    <div class="results fs-5 mb-3">
-        <p class="target">查看「<span></span>」的搜尋結果</p>
+<section class="members-content container my-8 pb-10">
+    <div class="row justify-content-center">
+        <form class="col-8 col-md-6 needs-validation" novalidate>
+            <div class="mb-3">
+                <div class="row">
+                </div>
+                <label for="InputId" class="form-label fs-6">帳號</label>
+                <input type="text" class="form-control" id="InputId" value="User123" disabled>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                </div>
+                <label for="InputName" class="form-label fs-6">姓名</label>
+                <input type="text" class="form-control" id="InputName" value="林圈圈" disabled>
+            </div>
+            <div class="mb-3">
+                <div class="row">
+                </div>
+                <label for="InputEmail1" class="form-label fs-6">電子信箱</label>
+                <input type="email" class="form-control" id="InputEmail1" value="ling@chezmoi.com" disabled>
+            </div>
+        </form>
     </div>
-    <ul class="row company-list list-unstyled">
-        <li class="company-result fs-5 text-center text-danger"></li>
-    </ul>
 </section>
+
+<div class="modal fade" id="regist" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">修改完成</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                請使用新密碼重新登入：）
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">確認</button>
+            </div>
+        </div>
+    </div>
+</div>
 
     <footer class="footer bg-secondary px-2 py-4 text-center">
       <div class="container py-3">

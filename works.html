@@ -27,16 +27,16 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item px-3 mx-1">
+          <li class="nav-item px-3 mx-1 text-center">
             <a class="nav-link fs-5" aria-current="page" href="index.html">Home</a>
           </li>
-          <li class="nav-item px-3 mx-1">
+          <li class="nav-item px-3 mx-1 text-center">
             <a class="nav-link fs-5" href="company.html">Company</a>
           </li>
-          <li class="nav-item px-3 mx-1">
+          <li class="nav-item px-3 mx-1 text-center">
             <a class="nav-link fs-5" href="works.html">Works</a>
           </li>
-          <li class="nav-item px-3 mx-1">
+          <li class="nav-item px-3 mx-1 text-center">
             <a class="nav-link fs-5" href="members.html">Members</a>
           </li>
         </ul>
@@ -44,7 +44,51 @@
     </div>
   </nav>
   
-<div class="works-top"></div>
+<section class="works-top">
+    <div class="mt-6 pb-3 border-bottom border-5 border-primary">
+        <div class="container d-md-flex d-flex-column justify-content-md-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="works-title">
+                    <h3 class="fw-bold me-3">設計案例列表</h3>
+                </div>
+                <!-- <div class="btn-group me-3" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="placeradio" id="placeradio_01" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="placeradio_01">北部</label>
+                    <input type="radio" class="btn-check" name="placeradio" id="placeradio_02" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="placeradio_02">中部</label>
+                    <input type="radio" class="btn-check" name="placeradio" id="placeradio_03" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="-placeradio_03">南部</label>
+                    <input type="radio" class="btn-check" name="placeradio" id="placeradio_04" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="placeradio_04">東部</label>
+                </div>
+                <div class="btn-group me-3" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="priceradio" id="priceradio_01" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="priceradio_01">80萬以下</label>
+                    <input type="radio" class="btn-check" name="priceradio" id="priceradio_02" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="priceradio_02">81-100萬</label>
+                    <input type="radio" class="btn-check" name="priceradio" id="priceradio_03" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="priceradio_03">101萬以上</label>
+                </div>
+                <a href="#" class="btn btn-primary">GO</a> -->
+            </div>
+
+            <div class="d-flex align-items-center justify-content-between border border-primary my-4 my-md-0">
+                <input class="work-input me-2 px-2 border-0 fs-6 fw-light bg-transparent text-white" type="search"
+                    placeholder="Search">
+                <a class="p-2 work-search" type="submit"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container py-6">
+    <div class="results fs-5 mb-3">
+        <p class="target">查看「<span></span>」的搜尋結果</p>
+    </div>
+    <ul class="row works-list list-unstyled">
+        <li class="work-result fs-5 text-center text-danger"></li>
+    </ul>
+</section>
 
     <footer class="footer bg-secondary px-2 py-4 text-center">
       <div class="container py-3">
