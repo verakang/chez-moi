@@ -4,21 +4,23 @@ layout: ./app/layout.ejs
 engine: ejs
 ---
 
-<div class="members-top"></div>
-<section class="members-main-top my-6 pb-3 border-bottom border-primary">
-    <div class="container d-md-flex d-flex-column justify-content-md-between align-items-center">
-        <div class="member-title">
-            <h3>會員專區</h3>
-        </div>
-        <div class="btn-group mt-3" role="group" aria-label="Basic outlined example">
-            <button type="button" class="btn btn-primary"><a href="members-regist.html"><i
-                        class="fa-solid fa-right-to-bracket me-2"></i>註冊會員</a></button>
-            <button type="button" class="btn btn-primary"><a href="members-reset.html"><i
-                        class="fa-solid fa-lock me-2"></i>修改密碼</a></button>
+<section class="members-top">
+    <div class="mt-6 pb-3 border-bottom border-5 border-primary">
+        <div class="container d-md-flex d-flex-column justify-content-between align-items-center">
+            <div class="member-title">
+                <h3 class="fw-bold">會員專區-會員登入</h3>
+            </div>
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-primary"><a href="members-regist.html"><i
+                            class="fa-regular fa-id-card me-2"></i>註冊會員</a></button>
+                <button type="button" class="btn btn-primary"><a href="members-reset.html"><i
+                            class="fa-solid fa-lock me-2"></i>修改密碼</a></button>
+            </div>
         </div>
     </div>
 </section>
-<section class="container my-6 pb-10">
+
+<section class="members-content container my-8 pb-10">
     <div class="row justify-content-center">
         <form class="col-8 col-md-6 needs-validation" novalidate>
             <div class="mb-3">
@@ -40,7 +42,7 @@ engine: ejs
             <div class="buttons d-flex justify-content-end mt-5">
                 <button type="button" class="btn btn-outline-primary me-3" data-bs-toggle="modal"
                     data-bs-target="#forgotpw">忘記密碼</button>
-                <button type="submit" class="btn btn-primary">會員登入</button>
+                <button type="button" class="btn btn-primary"><a href="members-login.html">會員登入</a></button>
             </div>
         </form>
     </div>

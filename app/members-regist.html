@@ -4,21 +4,23 @@ layout: ./app/layout.ejs
 engine: ejs
 ---
 
-<div class="members-top"></div>
-<div class="members-main-top my-6 pb-3 border-bottom border-primary">
-    <div class="container d-md-flex d-flex-column justify-content-md-between align-items-center">
-        <div class="member-title">
-            <h3>會員專區-註冊會員</h3>
-        </div>
-        <div class="btn-group mt-3" role="group" aria-label="Basic outlined example">
-            <button type="button" class="btn btn-primary"><a href="members.html"><i
-                        class="fa-solid fa-right-to-bracket me-2"></i>登入會員</a></button>
-            <button type="button" class="btn btn-primary"><a href="members-reset.html"><i
-                        class="fa-solid fa-lock me-2"></i>修改密碼</a></button>
+<section class="members-top">
+    <div class="mt-6 pb-3 border-bottom border-5 border-primary">
+        <div class="container d-md-flex d-flex-column justify-content-md-between align-items-center">
+            <div class="member-title">
+                <h3 class="fw-bold">會員專區-註冊會員</h3>
+            </div>
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
+                <button type="button" class="btn btn-primary"><a href="members.html"><i
+                            class="fa-solid fa-right-to-bracket me-2"></i>登入會員</a></button>
+                <button type="button" class="btn btn-primary"><a href="members-reset.html"><i
+                            class="fa-solid fa-lock me-2"></i>修改密碼</a></button>
+            </div>
         </div>
     </div>
-</div>
-<section class="container my-6 pb-10">
+</section>
+
+<section class="members-content container my-8 pb-10">
     <div class="row justify-content-center">
         <form class="col-8 col-md-6 needs-validation" novalidate>
             <div class="mb-3">
@@ -64,7 +66,7 @@ engine: ejs
             </div>
             <div class="buttons d-flex justify-content-end mt-5">
                 <button type="button" class="btn btn-outline-primary me-3" data-bs-toggle="modal"
-                    data-bs-target="#forgotpw">取消</button>
+                    data-bs-target="#forgotpw"><a href="members.html">取消</a></button>
                 <button type="submit" class="btn btn-primary" data-bs-toggle="modal"
                     data-bs-target="#regist">送出</button>
             </div>

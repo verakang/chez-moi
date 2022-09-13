@@ -1,6 +1,10 @@
 .members-top {
-    background-image: url("https://images.unsplash.com/photo-1515511856280-7b23f68d2996?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80");
+    background-image: url("https://images.unsplash.com/photo-1660340439887-6635db0a8ac4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80");
     background-size: cover;
-    background-position: top center;
-    padding-top: 250px;
+    background-position: center center;
+    padding-top: 120px;
+}
+
+.members-content {
+    min-height: calc(100vh - 534px);
 }

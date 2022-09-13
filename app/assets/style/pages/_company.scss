@@ -3,15 +3,36 @@
 // }
 
 .company-top {
-    background-image: url("https://images.unsplash.com/photo-1515511856280-7b23f68d2996?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80");
+    background-image: url("https://images.unsplash.com/photo-1589123078295-d06ba77a48e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
     background-size: cover;
-    background-position: top center;
-    padding-top: 250px;
+    background-position: center center;
+    padding-top: 120px;
 }
 
-.input-search {
+.company-search {
+    font-size: 16px;
+    color: $primary;
+}
+
+.company-input {
     outline: none;
     -webkit-appearance: none;
+}
+
+::-webkit-input-placeholder {
+    color: #eee;
+}
+
+::-moz-placeholder {
+    color: #eee;
+}
+
+:-moz-placeholder {
+    color: #eee;
+}
+
+.target {
+    opacity: 0;
 }
 
 .company-item {
