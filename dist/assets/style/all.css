@@ -12468,6 +12468,10 @@ img {
   transition: 0.3s;
 }
 
+body {
+  background-color: #fcf8f2;
+}
+
 img {
   height: calc(100vh - 96px);
   -o-object-fit: cover;
@@ -12880,7 +12884,7 @@ footer .footer-icons:hover {
 }
 
 .members-content {
-  min-height: calc(100vh - 534px);
+  min-height: calc(100vh - 566px);
 }
 
 /*# sourceMappingURL=all.css.map */

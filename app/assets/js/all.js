@@ -52,7 +52,7 @@ $(document).ready(function () {
 
     // show出所有資訊-公司
     for (let i = 0; i < str.length; i++) {
-      $('.company-list').append(`<li class="company-item card border-0 col-12 col-lg-4 position-relative">
+      $('.company-list').append(`<li class="company-item card border-0 col-12 col-lg-4 position-relative bg-transparent">
       <div class="card-img"><img src="${str[i].works.[0].photos[0]}" class="card-img-top" alt="photo"></div>
       <div class="card-body">
           <h5 class="card-title"><a href="#" class="stretched-link">${str[i].company}</a></h5>
@@ -61,10 +61,10 @@ $(document).ready(function () {
     // show出所有資訊-設計
     for (let i = 0; i < str.length; i++) {
       for (let j = 0; j < 3; j++) {
-        $('.works-list').append(`<li class="work-item card border-0 col-12 col-lg-4 position-relative">
+        $('.works-list').append(`<li class="work-item card border-0 col-12 col-lg-4 position-relative bg-transparent">
         <div class="card-img"><img src="${str[i].works[j].photos[1]}" class="card-img-top" alt="photo"></div>
         <div class="card-body">
-            <h5 class="card-title"><a href="#" class="stretched-link">${str[i].works[j].title}<span class="px-3 text-primary">|</span>${str[i].company}</a></h5>
+            <h5 class="card-title"><a href="#" class="stretched-link">${str[i].works[j].title}<span class="separate px-3">|</span>${str[i].company}</a></h5>
         </div></li>`)
       }
     }
@@ -91,7 +91,7 @@ $(document).ready(function () {
         let item = str[i].company;
         if (item.indexOf(key) >= 0) {
           count += 1;
-          $('.company-list').append(`<li class="company-item card border-0 col-12 col-lg-4 position-relative">
+          $('.company-list').append(`<li class="company-item card border-0 col-12 col-lg-4 position-relative bg-transparent">
           <div class="card-img"><img src="${str[i].works.[0].photos[0]}" class="card-img-top" alt="photo"></div>
           <div class="card-body">
               <h5 class="card-title"><a href="#" class="stretched-link">${str[i].company}</a></h5>
@@ -131,7 +131,7 @@ $(document).ready(function () {
           if (item.indexOf(key) >= 0) {
             count += 1;
             console.log(count)
-            $('.works-list').append(`<li class="work-item card border-0 col-12 col-lg-4 position-relative">
+            $('.works-list').append(`<li class="work-item card border-0 col-12 col-lg-4 position-relative bg-transparent">
             <div class="card-img"><img src="${str[i].works[j].photos[1]}" class="card-img-top" alt="photo"></div>
             <div class="card-body">
                 <h5 class="card-title"><a href="#" class="stretched-link">${str[i].works[j].title}<span class="px-3 text-primary">|</span>${str[i].company}</a></h5>
