@@ -50,13 +50,13 @@ $(document).ready(function () {
     var str = JSON.parse(xhr.responseText); // show出所有資訊-公司
 
     for (var i = 0; i < str.length; i++) {
-      $('.company-list').append("<li class=\"company-item card border-0 col-12 col-lg-4 position-relative\">\n      <div class=\"card-img\"><img src=\"".concat(str[i].works[0].photos[0], "\" class=\"card-img-top\" alt=\"photo\"></div>\n      <div class=\"card-body\">\n          <h5 class=\"card-title\"><a href=\"#\" class=\"stretched-link\">").concat(str[i].company, "</a></h5>\n      </div></li>"));
+      $('.company-list').append("<li class=\"company-item card border-0 col-12 col-lg-4 position-relative bg-transparent\">\n      <div class=\"card-img\"><img src=\"".concat(str[i].works[0].photos[0], "\" class=\"card-img-top\" alt=\"photo\"></div>\n      <div class=\"card-body\">\n          <h5 class=\"card-title\"><a href=\"#\" class=\"stretched-link\">").concat(str[i].company, "</a></h5>\n      </div></li>"));
     } // show出所有資訊-設計
 
 
     for (var _i = 0; _i < str.length; _i++) {
       for (var j = 0; j < 3; j++) {
-        $('.works-list').append("<li class=\"work-item card border-0 col-12 col-lg-4 position-relative\">\n        <div class=\"card-img\"><img src=\"".concat(str[_i].works[j].photos[1], "\" class=\"card-img-top\" alt=\"photo\"></div>\n        <div class=\"card-body\">\n            <h5 class=\"card-title\"><a href=\"#\" class=\"stretched-link\">").concat(str[_i].works[j].title, "<span class=\"px-3 text-primary\">|</span>").concat(str[_i].company, "</a></h5>\n        </div></li>"));
+        $('.works-list').append("<li class=\"work-item card border-0 col-12 col-lg-4 position-relative bg-transparent\">\n        <div class=\"card-img\"><img src=\"".concat(str[_i].works[j].photos[1], "\" class=\"card-img-top\" alt=\"photo\"></div>\n        <div class=\"card-body\">\n            <h5 class=\"card-title\"><a href=\"#\" class=\"stretched-link\">").concat(str[_i].works[j].title, "<span class=\"separate px-3\">|</span>").concat(str[_i].company, "</a></h5>\n        </div></li>"));
       }
     } // 公司搜尋
 
@@ -83,7 +83,7 @@ $(document).ready(function () {
 
         if (item.indexOf(key) >= 0) {
           count += 1;
-          $('.company-list').append("<li class=\"company-item card border-0 col-12 col-lg-4 position-relative\">\n          <div class=\"card-img\"><img src=\"".concat(str[_i2].works[0].photos[0], "\" class=\"card-img-top\" alt=\"photo\"></div>\n          <div class=\"card-body\">\n              <h5 class=\"card-title\"><a href=\"#\" class=\"stretched-link\">").concat(str[_i2].company, "</a></h5>\n          </div></li>"));
+          $('.company-list').append("<li class=\"company-item card border-0 col-12 col-lg-4 position-relative bg-transparent\">\n          <div class=\"card-img\"><img src=\"".concat(str[_i2].works[0].photos[0], "\" class=\"card-img-top\" alt=\"photo\"></div>\n          <div class=\"card-body\">\n              <h5 class=\"card-title\"><a href=\"#\" class=\"stretched-link\">").concat(str[_i2].company, "</a></h5>\n          </div></li>"));
         }
       }
 
@@ -118,7 +118,7 @@ $(document).ready(function () {
           if (item.indexOf(key) >= 0) {
             count += 1;
             console.log(count);
-            $('.works-list').append("<li class=\"work-item card border-0 col-12 col-lg-4 position-relative\">\n            <div class=\"card-img\"><img src=\"".concat(str[_i3].works[_j].photos[1], "\" class=\"card-img-top\" alt=\"photo\"></div>\n            <div class=\"card-body\">\n                <h5 class=\"card-title\"><a href=\"#\" class=\"stretched-link\">").concat(str[_i3].works[_j].title, "<span class=\"px-3 text-primary\">|</span>").concat(str[_i3].company, "</a></h5>\n            </div></li>"));
+            $('.works-list').append("<li class=\"work-item card border-0 col-12 col-lg-4 position-relative bg-transparent\">\n            <div class=\"card-img\"><img src=\"".concat(str[_i3].works[_j].photos[1], "\" class=\"card-img-top\" alt=\"photo\"></div>\n            <div class=\"card-body\">\n                <h5 class=\"card-title\"><a href=\"#\" class=\"stretched-link\">").concat(str[_i3].works[_j].title, "<span class=\"px-3 text-primary\">|</span>").concat(str[_i3].company, "</a></h5>\n            </div></li>"));
           }
         }
       }
